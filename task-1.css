@@ -1,0 +1,35 @@
+html {
+    text-align: center;
+    font-family: Monaco;
+}
+
+.maindiv {
+    float: right;
+}
+
+.left {
+    display: inline-block;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.color
+{
+    background-color: black;
+    border: 1 px solid ;
+}
+
+.box {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+}
